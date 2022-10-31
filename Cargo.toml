@@ -1,0 +1,4 @@
+[workspace]
+members = ["slang-rs", "slang-sys"]
+
+[workspace.dependencies]
