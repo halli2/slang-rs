@@ -1,0 +1,11 @@
+[target.'cfg(all())']
+rustflags = [
+  "-Wclippy::all",
+  
+  "-Aclippy::implicit_return",
+  "-Aclippy::needless_return",
+  "-Aclippy::float_arithmetic",
+  "-Aclippy::missing-docs-in-private-items",
+]
+  # "-Wclippy::pedantic",
+  # "-Wclippy::restriction",
