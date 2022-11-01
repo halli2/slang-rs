@@ -1,4 +1,5 @@
 [workspace]
-members = ["slang-rs", "slang-sys"]
+members = ["slang-rs", "slang-sys", "examples"]
 
 [workspace.dependencies]
+

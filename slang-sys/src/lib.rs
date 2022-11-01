@@ -12,7 +12,6 @@ mod tests {
 
     struct GlobalSession {
         inner: *mut slang_IGlobalSession,
-        _phantom: PhantomData<*mut slang_IGlobalSession>,
     }
 
     impl Drop for GlobalSession {
@@ -36,7 +35,6 @@ mod tests {
 
             let _global_session = GlobalSession {
                 inner: global_session,
-                _phantom: Default::default(),
             };
 
             // eprintln!("{:?}", global_session);

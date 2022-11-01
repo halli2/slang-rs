@@ -1,9 +1,10 @@
 [package]
-name = "slang-rs"
+name = "examples"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-slang-sys = { path = "../slang-sys" }
+slang-rs = { path = "../slang-rs" }
+
